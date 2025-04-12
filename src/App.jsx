@@ -1,13 +1,15 @@
 import React from 'react'
-import Hero from './Hero/Hero'
+
 import "./App.css"
-import Testmonials from './Testimonials/Testimonials'
+
+import Hero from './components/hero/Hero'
+import Testimonial from './components/Testimonial/Testimonial'
 
 export default function App() {
   return (
     <div className='mainCon'>
         <Hero />
-        <Testmonials />        
+        <Testimonial />        
     </div>
   )
 }
