@@ -47,15 +47,15 @@
 import React from 'react';
 import './App.css';
 
-import Hero from './components/hero/Hero';
-import Testimonial from './components/Testimonial/Testimonial';
+// import Hero from './components/hero/Hero';
+// import Testimonial from './components/Testimonial/Testimonial';
 import { Profile } from './components/document/profile';
 
 export default function App() {
   return (
     <div className='mainCon'>
-      <Hero />
-      <Testimonial />
+      {/* <Hero />
+      <Testimonial /> */}
       <Profile />
     </div>
   );
