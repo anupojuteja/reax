@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-import Home from './pages/Home';
-import About from './pages/About';
-import Products from './pages/Products';
-import Contact from './pages/Contact';
+import Home from './components/document/Avatar';
+import About from './components/document/Card';
+import Products from './components/document/Card';
+import Contact from './components/document/Avatar';
 
 export default function App1() {
   return (
