@@ -23,15 +23,16 @@
 
 // element variable 
 import React from 'react'
+import './Crender.css'
 
 function Crender() {
     let isLoggedIn = true;
     let register;
     if (isLoggedIn) {
-        register = <div>Logged in</div>;
+        register = <div className='box'>Logged in</div>;
         }
         else{
-            register = <div>Not registered</div>
+            register = <div className='box'>Not registered</div>
         }
         return register;
         }
